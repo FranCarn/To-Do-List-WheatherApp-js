@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alumni+Sans+Inline+One&amp;family=Montserrat:ital,wght@0,200;0,300;0,400;1,700&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link rel="shortcut icon" href="../assets/Sin título-1.png" type="image/x-icon">
+    <link rel="stylesheet" href="../style/style.css" />
+    <link rel="stylesheet" href="../style/weather.css" />
+    <title>Weather API</title>
+  </head>
+  <body>     
+     <header>
+      <nav class="nav-bar">
+        <ul class="nav">
+          <li class="nav"><a href="../pages/index.html">Clima</a></li>
+          <li class="nav"><a href="../pages/to-do.html">Lista de Tareas</a></li>
+        </ul>
+      </nav>
+      </header>
+    <div class="background">
+      <div class="weatherContent">
+        <div class="box" id="location"></div>
+        <div class="box" id="description" style="text-transform:capitalize;"></div>
+        <img class="box" id="weatherIcon" src="" alt="" height="100" width="100"></img>
+        <div class="box" id="temp"></div>
+        <div class="box" id="feel-temp"></div>
+        <div class="box" id="humidity"></div>
+        <div class="box"></div>
+      </div>
+    </div>
+    <footer>Franchus Enterprises &#169</footer>
+    <script src="../script/weather.js"></script>
+  </body>
+</html>

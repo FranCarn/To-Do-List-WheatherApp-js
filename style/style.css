@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Alumni Sans Inline One", cursive;
+  font-family: "Montserrat", sans-serif;
+}
+/* BACKGROUND */
+html {
+  min-height: 100%;
+  position: relative;
+}
+
+body {
+  margin-bottom: 40px;
+  width: 100%;
+  background-color: #fff;
+  background-image: linear-gradient(
+      90deg,
+      transparent 79px,
+      #abced4 79px,
+      #abced4 81px,
+      transparent 81px
+    ),
+    linear-gradient(#eee 0.1em, transparent 0.1em);
+  background-size: 100% 1.2em;
+}
+
+/* NAV MENU */
+li.nav {
+  list-style: none;
+}
+li.nav a {
+  color: white;
+  text-decoration: none;
+  margin: 10px;
+}
+li.nav a:hover {
+  color: #bfafb2;
+  transition: 0.7s;
+}
+ul.nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: end;
+}
+.nav-bar {
+  background-color: black;
+  padding: 1vw;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.nothing {
+  padding: 50px;
+}
+
+footer {
+  background-color: black;
+  box-sizing: border-box;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 40px;
+  color: white;
+  padding: 10px;
+  font-size: 15px;
+  text-align: end;
+}

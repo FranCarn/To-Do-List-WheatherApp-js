@@ -1,0 +1,126 @@
+.taskBackground {
+  box-sizing: border-box;
+  border-radius: 10px;
+  padding: 15px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.842);
+  width: 450px;
+  margin: 50px auto;
+}
+p {
+  color: white;
+  padding-bottom: 5px;
+}
+.createTask {
+  padding-bottom: 10px;
+  border-bottom: 1px black solid;
+  width: 400px;
+  margin: 0 auto;
+}
+#addTask {
+  background-color: none;
+  font-weight: bolder;
+  color: black;
+  width: 330px;
+  height: 35px;
+  margin: 0 auto;
+  border: none;
+  outline: 0px;
+  text-indent: 5px;
+}
+.fa-xl {
+  color: rgba(255, 255, 255, 0.842);
+}
+#btnSendTask {
+  cursor: pointer;
+  color: white;
+  border-radius: 5px;
+  height: 37px;
+  width: 35px;
+  background-color: rgba(0, 0, 0, 0);
+  border: 1px solid rgba(245, 245, 245, 0.637);
+}
+.listTask {
+  display: flex;
+  border-bottom: 2px solid rgb(255, 255, 255, 0.127);
+  width: 400px;
+}
+.taskDone {
+  width: 20px;
+  height: 20px;
+  margin: auto;
+}
+.textTask {
+  color: white;
+  overflow: hidden;
+  padding: 5px;
+  font-size: large;
+  width: 320px;
+}
+.deleteTask {
+  color: rgb(145, 0, 0);
+  width: 25px;
+  height: 25px;
+  margin: auto;
+}
+
+#btnSendTask:hover {
+  border: none;
+  background-color: rgba(190, 190, 190, 0.24);
+  color: rgba(0, 0, 0, 0.589);
+  transition: 0.3s;
+}
+#btnSendTask:active {
+  border: none;
+  transform: rotate3d(0, 0, 1, 360deg);
+  transition: 0s;
+}
+.border {
+  border: 1px solid white;
+  padding: 10px;
+  border-radius: 15px;
+}
+
+.deleteTask:hover {
+  color: white;
+  background-color: black;
+  transform: rotate(360deg);
+  transition: 0.5s;
+}
+@keyframes tachar {
+  from {
+    text-decoration-color: transparent;
+    background-color: rgba(0, 0, 0, 0);
+  }
+  to {
+    text-decoration-color: black;
+    background-color: black;
+  }
+}
+.done {
+  text-decoration: line-through;
+  animation: tachar 0.3s linear;
+  text-decoration-color: rgba(255, 255, 255, 0.8);
+  text-decoration-thickness: 2px;
+  background-color: black;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+#deleteAllTask {
+  padding: 8px 20px;
+  border-radius: 20px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: wheat;
+  color: black;
+  font-weight: bold;
+  margin: 10px auto;
+}
+
+#deleteAllTask:hover {
+  transition: 0.3s;
+  letter-spacing: 1px;
+}
